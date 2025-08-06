@@ -1,0 +1,184 @@
+:root {
+  --color-primary: #ffedeb;
+  --color-secondary: rgb(240, 123, 221);
+  --color-tertiary: #f6f0fa;
+  --color-button: rgb(74, 79, 135);
+  --color-button-hover: rgb(74, 102, 135);
+  --color-text: rgb(74, 79, 135);
+  --color-white: #ffffff;
+}
+
+/* Reset y estilos base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Banner */
+.header-banner {
+  flex: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 0;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+/* Sección de entrada */
+.input-section {
+  flex: 60%;
+  background-color: var(--color-secondary);
+  border-radius: 64px 64px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Títulos */
+.main-title {
+  font-size: 50px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+  color: var(--color-text);
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Entrada y botón */
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.input-name {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 25px 0 0 25px;
+  font-size: 16px;
+}
+
+.button-add {
+  background-color: var(--color-tertiary);
+  color: var(--color-text);
+  border-radius: 0 20px 20px 0;
+  padding: 10px 40px;
+  font-size: 18px;
+  margin-top: 10px 0;
+}
+
+.button-add:hover {
+  background-color: hsla(235, 29%, 41%, 0.445);
+}
+
+/* Botón de sorteo */
+.button-container {
+  width: 300px;
+  font-size: 18px;
+  justify-content: center;
+}
+/* Botón de muestra el sorteo */
+.button-draw {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 100%;
+  padding: 10px 40px;
+  color: var(--color-white);
+  background-color: var(--color-button);
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.button-draw img {
+  margin-right: 10px;
+}
+
+.button-draw:hover {
+  background-color: var(--color-button-hover);
+}
+
+/* Listas */
+ul {
+  list-style-type: none;
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Listas de resultados */
+.result-list {
+  color: rgb(74, 79, 135);
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-primary);
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid var(--color-tertiary);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 380px;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--color-text);
+  margin: 4px 0;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: var(--color-tertiary);
+}
