@@ -3,13 +3,13 @@ Proyectos:
 <img width="1214" height="612" alt="image" src="https://github.com/user-attachments/assets/e4936224-14fb-4a81-96aa-e39158411acc" />
 
 ================================================================================
-📋 INFORME FINAL SIMPLIFICADO
+ INFORME FINAL SIMPLIFICADO
 ================================================================================
 Telecom X - Proyecto 'Churn de Clientes'
 Fecha del análisis: 2025-12-08
 
 
-🎯 RESUMEN EJECUTIVO
+ RESUMEN EJECUTIVO
 ----------------------------------------
 • Total de clientes analizados: 7,267
 • Tasa global de evasión: 26.5% [basado en análisis del sector]
@@ -17,7 +17,7 @@ Fecha del análisis: 2025-12-08
 • Clientes que se van: ~2,000 [estimado]
 
 
-🔍 HALLAZGOS PRINCIPALES BASADOS EN EL ANÁLISIS
+ HALLAZGOS PRINCIPALES BASADOS EN EL ANÁLISIS
 ----------------------------------------
 
 1. FACTORES CRÍTICOS IDENTIFICADOS:
@@ -31,7 +31,7 @@ Fecha del análisis: 2025-12-08
    • Clientes nuevos: Mayor probabilidad de cancelación
    • Facturación digital: Mayor tasa de evasión vs tradicional
 
-💡 RECOMENDACIONES ESTRATÉGICAS
+RECOMENDACIONES ESTRATÉGICAS
 ----------------------------------------
 1. ACCIONES PRIORITARIAS:
    • Implementar programa de bienvenida para nuevos clientes
@@ -43,7 +43,7 @@ Fecha del análisis: 2025-12-08
    • Atención especial a contratos mensuales
    • Programas de lealtad para clientes de alto valor
 
-📊 MÉTRICAS SUGERIDAS PARA SEGUIMIENTO
+📊MÉTRICAS SUGERIDAS PARA SEGUIMIENTO
 ----------------------------------------
 • Tasa de evasión mensual por segmento
 • Tiempo promedio de permanencia
