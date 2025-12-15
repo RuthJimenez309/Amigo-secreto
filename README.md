@@ -54,9 +54,6 @@ Fecha del análisis: 2025-12-08
 ✅ INFORME GENERADO EXITOSAMENTE
 ================================================================================
 
-Nota: Para análisis más detallados, asegúrese de que
-todas las columnas necesarias estén correctamente identificadas.
-
 
 
 
